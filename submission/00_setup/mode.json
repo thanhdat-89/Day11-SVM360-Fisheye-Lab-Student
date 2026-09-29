@@ -1,0 +1,27 @@
+{
+  "members": [
+    "dat",
+    "dong",
+    "tuananh"
+  ],
+  "assignments": {
+    "dat": "B4-mid",
+    "dong": "B1-dense",
+    "tuananh": "B3-mid"
+  },
+  "self": "dat",
+  "slice": "B4-mid",
+  "degrade": [
+    "k12"
+  ],
+  "current_slice": "B4-mid",
+  "support_prefill": true,
+  "support_slice": "B4-mid",
+  "prefill_box_ids": [
+    "adasind_249480.jpg:1",
+    "adasind_261480.jpg:1",
+    "adasind_261480.jpg:2",
+    "adasind_261480.jpg:3",
+    "adasind_261480.jpg:4"
+  ]
+}

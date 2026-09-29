@@ -1,0 +1,9 @@
+round: r1_craft
+slice: B4-mid
+sha256: e52b1936c4578a7ba8d5b4213f1791c2d876d672d6407cfc164ae3beccd88702
+code: E52B-1936
+locked_at: 2026-09-29T12:21:18+07:00
+shapes: box=19, polygon=9
+prefill_kept: 1
+prefill_edited: 4
+new: 14

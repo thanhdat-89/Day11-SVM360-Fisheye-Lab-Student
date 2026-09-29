@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D001,2026-09-29,Ai review bài của dat trong vòng P3,dat review B3-mid của tuananh thay cho B1-dense của dong,Dong chưa hoàn thành bài và nhóm đã thống nhất thay đổi phân công để tiếp tục đúng time-box,decided
+D002,2026-09-29,Có relock vòng rework hay không,Relock bằng B4-mid-rework-v2.zip,Bản rework đầu chỉ sửa box trùng ở frame 261480 và chưa áp dụng hai sửa đổi rider cùng pedestrian thiếu ở frame 265065,relocked
+D003,2026-09-29,Có sửa L9 theo teaching reference hay không,Giữ L9 và escalate cho QA,Ảnh cho thấy một Bike đỗ sát lề cao hơn H nhưng reference không có; cần hai reviewer xác nhận trước khi đổi reference,escalated
+D004,2026-09-29,Bản rework v2 có được chấp nhận hay không,Chấp nhận làm bản rework cuối,Delta mid cải thiện từ 2 missing và 2 spurious xuống 0 missing và 0 spurious; các ca nghi reference sai được giữ riêng,closed

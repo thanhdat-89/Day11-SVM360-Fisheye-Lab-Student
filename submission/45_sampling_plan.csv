@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,30,"Mật độ giao thông và nhiều class cùng xuất hiện","Lấy nhiều mẫu normal để kiểm độ ổn định trong điều kiện vận hành phổ biến phía trước"
+front,hard,25,"Che khuất, vật nhỏ và nhiều đối tượng chồng lấn","Cần kiểm lỗi thiếu box, sai class và rider trong cảnh đông"
+rear,normal,20,"Ít mẫu hoặc phân bố đối tượng khác camera trước","Giữ đủ mẫu nền để so sánh chất lượng riêng của camera sau"
+rear,hard,30,"Ánh sáng yếu, vật đi vào mép ảnh và che khuất khi lùi","Tăng mẫu hard vì vùng sau dễ có vật nhỏ và điều kiện quan sát khó"
+left,normal,20,"Xe máy và người đi bộ xuất hiện gần thân xe","Kiểm chất lượng nhãn ở góc nhìn bên trái trong điều kiện thường"
+left,hard,25,"Méo fisheye ở rìa và vật cắt qua seam trước-trái hoặc sau-trái","Tăng mẫu để kiểm truncated, geometry và quy tắc liên camera"
+right,normal,20,"Xe máy, người đi bộ và vật sát lề xuất hiện gần camera","Giữ tập normal riêng để không dùng camera trước đại diện camera phải"
+right,hard,30,"Méo rìa, che khuất và vật xuất hiện trong seam","Ưu tiên thêm mẫu khó để kiểm box, ignore region và bất đồng cross-camera"
